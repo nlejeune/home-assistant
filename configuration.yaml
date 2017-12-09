@@ -76,6 +76,6 @@ tts:
 ecobee:
   api_key: !secret ecobee_api
 
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+group: !include includes/groups.yaml
+automation: !include includes/automations.yaml
+script: !include includes/scripts.yaml
