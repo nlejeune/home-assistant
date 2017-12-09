@@ -1,10 +1,15 @@
-*
-!*.yaml
-!scenes
-!.gitignore
-secrets.yaml
-known_devices.yaml
+# Files
+*.conf
+*.db
+*.db-journal
+*.log
+*.noload
+*.sqlite
+*.txt
+*.xml
+.HA_VERSION
 .uuid
-home-assistant_v2.db
-home-assistant.log
+known_devices.yaml
+google_calendars.yaml
 secrets.yaml
+.google.token

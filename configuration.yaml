@@ -9,12 +9,12 @@ homeassistant:
   # metric for Metric, imperial for Imperial
   unit_system: metric
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  time_zone: America/Toronto
+  time_zone: America/Montreal
   # Customization file
   customize: !include customize.yaml
 
 # Show links to resources in log and frontend
-introduction:
+#introduction:
 
 # Enables the frontend
 frontend:
@@ -62,6 +62,11 @@ sensor:
 # Text to speech
 tts:
   - platform: google
+
+
+# Example configuration.yaml entry
+ecobee:
+  api_key: !secret ecobee_api
 
 group: !include groups.yaml
 automation: !include automations.yaml
