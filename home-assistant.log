@@ -1,0 +1,57 @@
+2017-12-08 20:43:59 WARNING (MainThread) [homeassistant.setup] Setup of sensor is taking over 10 seconds.
+2017-12-08 20:44:15 WARNING (Thread-5) [netdisco.ssdp] Error fetching description at http://127.0.0.1:58080/aa4212cffc.xml
+2017-12-08 20:44:17 WARNING (Thread-5) [netdisco.ssdp] Error fetching description at http://192.168.1.1:8200/rootDesc.xml
+2017-12-08 20:44:25 ERROR (MainThread) [homeassistant.components.device_tracker] Unable to load /home/homeassistant/.homeassistant/known_devices.yaml: Config file not found: /home/homeassistant/.homeassistant/known_devices.yaml
+2017-12-08 20:44:34 WARNING (Thread-5) [pywemo.ssdp] Error fetching description at http://192.168.1.1:8200/rootDesc.xml
+2017-12-08 20:44:34 WARNING (Thread-5) [pywemo.ssdp] Error fetching description at http://127.0.0.1:58080/aa4212cffc.xml
+2017-12-08 20:44:38 WARNING (MainThread) [homeassistant.setup] Setup of wemo is taking over 10 seconds.
+2017-12-08 20:44:44 WARNING (Thread-6) [plexapi] BadRequest (401) unauthorized http://192.168.1.197:32400/; <html><head><script>window.location = window.location.href.match(/(^.+\/)[^\/]*$/)[1] + 'web/index.html';</script><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+2017-12-08 20:44:44 WARNING (MainThread) [homeassistant.components.media_player] Setup of platform cast is taking over 10 seconds.
+2017-12-08 20:44:47 WARNING (MainThread) [homeassistant.components.media_player] Setup of platform sonos is taking over 10 seconds.
+2017-12-08 20:48:34 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:48:34 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:48:41 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:48:41 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:48:42 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:49:43 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 20:49:43 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/aiohttp/web_protocol.py", line 271, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\_http_parser.pyx", line 295, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: invalid HTTP method
+2017-12-08 21:00:59 ERROR (MainThread) [homeassistant.core] Error doing job: Fatal read error on socket transport
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 723, in _read_ready
+    data = self._sock.recv(self.max_size)
+OSError: [Errno 113] No route to host
